@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_94c0440d9bd7d0fafcf56bd395316448 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_94c0440d9bd7d0fafcf56bd395316448" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_94c0440d9bd7d0fafcf56bd395316448 = L.map(
+                "map_94c0440d9bd7d0fafcf56bd395316448",
+                {
+                    center: [28.113478615897357, -15.401827827862702],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+
+            
+
+        
+    
+            var tile_layer_319cab506921a02d85b0d07c80b59e3f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 3, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var marker_e793bd17fb90049ccfb5dd130b963d3d = L.marker(
+                [28.113478615897357, -15.401827827862702],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_24df70357babc2ec2a17f4bae5411680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "microchip", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e793bd17fb90049ccfb5dd130b963d3d.setIcon(icon_24df70357babc2ec2a17f4bae5411680);
+        
+    
+        var popup_7b07007378e5a2bed421726087fef4e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42a465031840981d246ef30d4c590d9d = $(`<div id="html_42a465031840981d246ef30d4c590d9d" style="width: 100.0%; height: 100.0%;">Triana, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35002, España</div>`)[0];
+                popup_7b07007378e5a2bed421726087fef4e6.setContent(html_42a465031840981d246ef30d4c590d9d);
+            
+        
+
+        marker_e793bd17fb90049ccfb5dd130b963d3d.bindPopup(popup_7b07007378e5a2bed421726087fef4e6)
+        ;
+
+        
+    
+    
+            var marker_6c8d1fc19a12442a0ccafe6e1172a46b = L.marker(
+                [28.09794565892096, -15.401473728585762],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_04f4a6f2f31eb991dba4fa98e5c41eed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "microchip", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6c8d1fc19a12442a0ccafe6e1172a46b.setIcon(icon_04f4a6f2f31eb991dba4fa98e5c41eed);
+        
+    
+        var popup_b5173abf0cfbd2726fa0a4c80261c0a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eee873e6adb27ba3e0af15018353ede = $(`<div id="html_1eee873e6adb27ba3e0af15018353ede" style="width: 100.0%; height: 100.0%;">Vegueta, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35001, España</div>`)[0];
+                popup_b5173abf0cfbd2726fa0a4c80261c0a1.setContent(html_1eee873e6adb27ba3e0af15018353ede);
+            
+        
+
+        marker_6c8d1fc19a12442a0ccafe6e1172a46b.bindPopup(popup_b5173abf0cfbd2726fa0a4c80261c0a1)
+        ;
+
+        
+    
+    
+            var marker_d21e1fe7284dc08cec903a4f67d873a8 = L.marker(
+                [28.03409860215252, -15.402733054638412],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_f71e904f76f421c79e2266959f3e3d4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "microchip", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d21e1fe7284dc08cec903a4f67d873a8.setIcon(icon_f71e904f76f421c79e2266959f3e3d4c);
+        
+    
+        var popup_4eccf1bc3138e8cac33dd9e309c5ac0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01883638ece1900c4a2a8b6ffc7fbdf1 = $(`<div id="html_01883638ece1900c4a2a8b6ffc7fbdf1" style="width: 100.0%; height: 100.0%;">Autopista del Sur, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35220, España</div>`)[0];
+                popup_4eccf1bc3138e8cac33dd9e309c5ac0e.setContent(html_01883638ece1900c4a2a8b6ffc7fbdf1);
+            
+        
+
+        marker_d21e1fe7284dc08cec903a4f67d873a8.bindPopup(popup_4eccf1bc3138e8cac33dd9e309c5ac0e)
+        ;
+
+        
+    
+    
+            var marker_de15c35f39e53927039f8d2c82b479bf = L.marker(
+                [28.107316411104595, -15.403216082554357],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_bb8797aca9e52be269a1a303264b1bf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "microchip", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_de15c35f39e53927039f8d2c82b479bf.setIcon(icon_bb8797aca9e52be269a1a303264b1bf8);
+        
+    
+        var popup_52605824937b18dc43cc5623ad16b561 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb26d947ec8c9a72f1747e6be03722b0 = $(`<div id="html_eb26d947ec8c9a72f1747e6be03722b0" style="width: 100.0%; height: 100.0%;">Vegueta, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35001, España</div>`)[0];
+                popup_52605824937b18dc43cc5623ad16b561.setContent(html_eb26d947ec8c9a72f1747e6be03722b0);
+            
+        
+
+        marker_de15c35f39e53927039f8d2c82b479bf.bindPopup(popup_52605824937b18dc43cc5623ad16b561)
+        ;
+
+        
+    
+    
+            var marker_35c9971159664678cfbe7ffe6b9ad0ae = L.marker(
+                [27.968402960462935, -15.399877385167464],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_214cf5cc524295e04e81690c8f8e004a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "microchip", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_35c9971159664678cfbe7ffe6b9ad0ae.setIcon(icon_214cf5cc524295e04e81690c8f8e004a);
+        
+    
+        var popup_67e8964595613af91df07b6f7a24d8b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcda9a1d38615dd911f840f855c9d693 = $(`<div id="html_dcda9a1d38615dd911f840f855c9d693" style="width: 100.0%; height: 100.0%;">Calle José Luis Gallardo Navarro, Polígono Industrial El Goro, El Goro, Telde, Las Palmas, Canarias, 35215, España</div>`)[0];
+                popup_67e8964595613af91df07b6f7a24d8b0.setContent(html_dcda9a1d38615dd911f840f855c9d693);
+            
+        
+
+        marker_35c9971159664678cfbe7ffe6b9ad0ae.bindPopup(popup_67e8964595613af91df07b6f7a24d8b0)
+        ;
+
+        
+    
+    
+            var marker_236712f6a2dfe97037d4dc148c1fbb50 = L.marker(
+                [28.081586666666666, -15.400256666666667],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_22c1087b838287cd45a16bd98a93a18e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_236712f6a2dfe97037d4dc148c1fbb50.setIcon(icon_22c1087b838287cd45a16bd98a93a18e);
+        
+    
+        var popup_a39a62647f0be3ad1a8e241074cc5dbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_698ac4af3640acba198fb7c80b63711c = $(`<div id="html_698ac4af3640acba198fb7c80b63711c" style="width: 100.0%; height: 100.0%;">Punta Casa Blanca, San Cristóbal, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35016, España</div>`)[0];
+                popup_a39a62647f0be3ad1a8e241074cc5dbd.setContent(html_698ac4af3640acba198fb7c80b63711c);
+            
+        
+
+        marker_236712f6a2dfe97037d4dc148c1fbb50.bindPopup(popup_a39a62647f0be3ad1a8e241074cc5dbd)
+        ;
+
+        
+    
+    
+            var marker_0126c576b184a22c85114a6c269711e3 = L.marker(
+                [28.097426666666667, -15.38828],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_f16a2714552a4b132c5417044fe5efc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0126c576b184a22c85114a6c269711e3.setIcon(icon_f16a2714552a4b132c5417044fe5efc6);
+        
+    
+        var popup_4eacf0dcdd952950951e3b550d20830c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ace4ce14ceee3191351043c9cb523c9 = $(`<div id="html_0ace4ce14ceee3191351043c9cb523c9" style="width: 100.0%; height: 100.0%;">Vegueta, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35001, España</div>`)[0];
+                popup_4eacf0dcdd952950951e3b550d20830c.setContent(html_0ace4ce14ceee3191351043c9cb523c9);
+            
+        
+
+        marker_0126c576b184a22c85114a6c269711e3.bindPopup(popup_4eacf0dcdd952950951e3b550d20830c)
+        ;
+
+        
+    
+    
+            var marker_a6b3ff18ab42ea7a628a9671469097d3 = L.marker(
+                [28.123591666666666, -15.404483333333333],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_dc49de451a95b0b00e336327643d0142 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a6b3ff18ab42ea7a628a9671469097d3.setIcon(icon_dc49de451a95b0b00e336327643d0142);
+        
+    
+        var popup_d316b3e307dcbfc12b1668247d2e2054 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c041a1d9738ba112ced5cbe82ab7c0d = $(`<div id="html_4c041a1d9738ba112ced5cbe82ab7c0d" style="width: 100.0%; height: 100.0%;">Muelle Dique Reina Sofía, Puerto de la Luz y de Las Palmas, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35071, España</div>`)[0];
+                popup_d316b3e307dcbfc12b1668247d2e2054.setContent(html_4c041a1d9738ba112ced5cbe82ab7c0d);
+            
+        
+
+        marker_a6b3ff18ab42ea7a628a9671469097d3.bindPopup(popup_d316b3e307dcbfc12b1668247d2e2054)
+        ;
+
+        
+    
+    
+            var marker_6323f50ef7ed515975d08b7227961512 = L.marker(
+                [28.088825, -15.40191],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_a7ceb49524f5d59008e52f80809e47de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6323f50ef7ed515975d08b7227961512.setIcon(icon_a7ceb49524f5d59008e52f80809e47de);
+        
+    
+        var popup_f0876afebf4d5f090f221e112516a52f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ed1f73935c6b8bf4bf8803ee43f4848 = $(`<div id="html_8ed1f73935c6b8bf4bf8803ee43f4848" style="width: 100.0%; height: 100.0%;">Punta Casa Blanca, San Cristóbal, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35016, España</div>`)[0];
+                popup_f0876afebf4d5f090f221e112516a52f.setContent(html_8ed1f73935c6b8bf4bf8803ee43f4848);
+            
+        
+
+        marker_6323f50ef7ed515975d08b7227961512.bindPopup(popup_f0876afebf4d5f090f221e112516a52f)
+        ;
+
+        
+    
+    
+            var marker_47d945027764699e8763724457e2506d = L.marker(
+                [27.975811666666665, -15.377321666666667],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_509038aed0653cfb6f9e3e1ed5cc570b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_47d945027764699e8763724457e2506d.setIcon(icon_509038aed0653cfb6f9e3e1ed5cc570b);
+        
+    
+        var popup_338596ca505f6e59eba1755f32cacde9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_809114d2d2728a56f738e28280e4d582 = $(`<div id="html_809114d2d2728a56f738e28280e4d582" style="width: 100.0%; height: 100.0%;">Calle Pescador, Polígono Industrial de Salinetas, Playa de Salinetas, Telde, Las Palmas, Canarias, 35214, España</div>`)[0];
+                popup_338596ca505f6e59eba1755f32cacde9.setContent(html_809114d2d2728a56f738e28280e4d582);
+            
+        
+
+        marker_47d945027764699e8763724457e2506d.bindPopup(popup_338596ca505f6e59eba1755f32cacde9)
+        ;
+
+        
+    
+    
+            var marker_ae26b958ffb786f4daf3182287ccc0f5 = L.marker(
+                [28.086215, -15.396535],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_b0fdb962b24594b81bed950cce6692a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ae26b958ffb786f4daf3182287ccc0f5.setIcon(icon_b0fdb962b24594b81bed950cce6692a4);
+        
+    
+        var popup_14d50d893b986dbab227cc3a826a0904 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_837f745745b920f0836fc418aa351e07 = $(`<div id="html_837f745745b920f0836fc418aa351e07" style="width: 100.0%; height: 100.0%;">Punta Casa Blanca, San Cristóbal, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35016, España</div>`)[0];
+                popup_14d50d893b986dbab227cc3a826a0904.setContent(html_837f745745b920f0836fc418aa351e07);
+            
+        
+
+        marker_ae26b958ffb786f4daf3182287ccc0f5.bindPopup(popup_14d50d893b986dbab227cc3a826a0904)
+        ;
+
+        
+    
+    
+            var marker_a37da7a00b9fc906b7560e05bb75772f = L.marker(
+                [28.137755, -15.396795],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_4fcc934252f95a2b80ef1141e934f7d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a37da7a00b9fc906b7560e05bb75772f.setIcon(icon_4fcc934252f95a2b80ef1141e934f7d5);
+        
+    
+        var popup_3c67f6229cd1afb054143748012aebbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf286076ae131679ac77e4cdf1f8acdd = $(`<div id="html_bf286076ae131679ac77e4cdf1f8acdd" style="width: 100.0%; height: 100.0%;">Arenales, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35004, España</div>`)[0];
+                popup_3c67f6229cd1afb054143748012aebbc.setContent(html_bf286076ae131679ac77e4cdf1f8acdd);
+            
+        
+
+        marker_a37da7a00b9fc906b7560e05bb75772f.bindPopup(popup_3c67f6229cd1afb054143748012aebbc)
+        ;
+
+        
+    
+    
+            var marker_808422fbd7d953478a92a4c62f0f7311 = L.marker(
+                [28.082728333333332, -15.404548333333333],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_cfdf183485b2713082b70b3e960e6b2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_808422fbd7d953478a92a4c62f0f7311.setIcon(icon_cfdf183485b2713082b70b3e960e6b2c);
+        
+    
+        var popup_6372944fa2c7cac6385f1d6f9eabbf81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a247d338fe476a31577acb77745cc1ff = $(`<div id="html_a247d338fe476a31577acb77745cc1ff" style="width: 100.0%; height: 100.0%;">Punta Casa Blanca, San Cristóbal, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35016, España</div>`)[0];
+                popup_6372944fa2c7cac6385f1d6f9eabbf81.setContent(html_a247d338fe476a31577acb77745cc1ff);
+            
+        
+
+        marker_808422fbd7d953478a92a4c62f0f7311.bindPopup(popup_6372944fa2c7cac6385f1d6f9eabbf81)
+        ;
+
+        
+    
+    
+            var marker_ea4f6137b9e3dd06b315b5523bb8cdd2 = L.marker(
+                [28.120915, -15.399081666666667],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_1a72cf37ef524fc10b0715b5dfdea2b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ea4f6137b9e3dd06b315b5523bb8cdd2.setIcon(icon_1a72cf37ef524fc10b0715b5dfdea2b0);
+        
+    
+        var popup_3fe274413454688b89c3810329734251 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f69cd5c8b0b59b97b10edfecb639e55 = $(`<div id="html_9f69cd5c8b0b59b97b10edfecb639e55" style="width: 100.0%; height: 100.0%;">Muelle Dique Reina Sofía, Puerto de la Luz y de Las Palmas, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35071, España</div>`)[0];
+                popup_3fe274413454688b89c3810329734251.setContent(html_9f69cd5c8b0b59b97b10edfecb639e55);
+            
+        
+
+        marker_ea4f6137b9e3dd06b315b5523bb8cdd2.bindPopup(popup_3fe274413454688b89c3810329734251)
+        ;
+
+        
+    
+    
+            var marker_9d6957aefa16c8a8b056424772b7f453 = L.marker(
+                [28.120433333333335, -15.404916666666667],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_8bcc20a4845129dc845984b37820362c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9d6957aefa16c8a8b056424772b7f453.setIcon(icon_8bcc20a4845129dc845984b37820362c);
+        
+    
+        var popup_be80aac5d702ed1201a0a53931ad3d5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c8ec76f51394327702415bbf732697c = $(`<div id="html_3c8ec76f51394327702415bbf732697c" style="width: 100.0%; height: 100.0%;">Muelle Dique Reina Sofía, Puerto de la Luz y de Las Palmas, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35071, España</div>`)[0];
+                popup_be80aac5d702ed1201a0a53931ad3d5d.setContent(html_3c8ec76f51394327702415bbf732697c);
+            
+        
+
+        marker_9d6957aefa16c8a8b056424772b7f453.bindPopup(popup_be80aac5d702ed1201a0a53931ad3d5d)
+        ;
+
+        
+    
+    
+            var marker_f32cbd5b38223016b4aecea839a127c2 = L.marker(
+                [28.094856666666665, -15.401393333333333],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_6b0ecc09fc84e27be7919b4cd9f877f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f32cbd5b38223016b4aecea839a127c2.setIcon(icon_6b0ecc09fc84e27be7919b4cd9f877f6);
+        
+    
+        var popup_8db6bc03da2ce244db6585908a159319 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66ef4286ca9e371a14f3ca4d28ea9c95 = $(`<div id="html_66ef4286ca9e371a14f3ca4d28ea9c95" style="width: 100.0%; height: 100.0%;">Vegueta, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35001, España</div>`)[0];
+                popup_8db6bc03da2ce244db6585908a159319.setContent(html_66ef4286ca9e371a14f3ca4d28ea9c95);
+            
+        
+
+        marker_f32cbd5b38223016b4aecea839a127c2.bindPopup(popup_8db6bc03da2ce244db6585908a159319)
+        ;
+
+        
+    
+    
+            var marker_d248ad383f5c40eaa92590a8df43fbd7 = L.marker(
+                [28.06131, -15.392845],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_d5f9321cf470907800496479d938018a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d248ad383f5c40eaa92590a8df43fbd7.setIcon(icon_d5f9321cf470907800496479d938018a);
+        
+    
+        var popup_8bc52839af1081e40ff518fa247b6ca8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c50be56055a6d21a3a5b272551400c4 = $(`<div id="html_4c50be56055a6d21a3a5b272551400c4" style="width: 100.0%; height: 100.0%;">San Cristóbal, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35016, España</div>`)[0];
+                popup_8bc52839af1081e40ff518fa247b6ca8.setContent(html_4c50be56055a6d21a3a5b272551400c4);
+            
+        
+
+        marker_d248ad383f5c40eaa92590a8df43fbd7.bindPopup(popup_8bc52839af1081e40ff518fa247b6ca8)
+        ;
+
+        
+    
+    
+            var marker_1b9c745f5efe1c08d28e5a6eca3071cc = L.marker(
+                [28.067333333333334, -15.384833333333333],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_1b5c7c0520ec12475a691eba2846e657 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1b9c745f5efe1c08d28e5a6eca3071cc.setIcon(icon_1b5c7c0520ec12475a691eba2846e657);
+        
+    
+        var popup_4e35a340afd4bba8d6713fea58dde1d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7eb35289ef0dc34ecf64715b3ca56021 = $(`<div id="html_7eb35289ef0dc34ecf64715b3ca56021" style="width: 100.0%; height: 100.0%;">San Cristóbal, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35016, España</div>`)[0];
+                popup_4e35a340afd4bba8d6713fea58dde1d5.setContent(html_7eb35289ef0dc34ecf64715b3ca56021);
+            
+        
+
+        marker_1b9c745f5efe1c08d28e5a6eca3071cc.bindPopup(popup_4e35a340afd4bba8d6713fea58dde1d5)
+        ;
+
+        
+    
+    
+            var marker_d2a01771fb17b4415596da611548bf1c = L.marker(
+                [28.126408333333334, -15.39814],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_5266f3ba64d9a66f7581d7dc55025999 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d2a01771fb17b4415596da611548bf1c.setIcon(icon_5266f3ba64d9a66f7581d7dc55025999);
+        
+    
+        var popup_0beab01bde17b708125b0f7a32ea3cd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3f43844c128f0a1091cdfe39dcee869 = $(`<div id="html_f3f43844c128f0a1091cdfe39dcee869" style="width: 100.0%; height: 100.0%;">Arenales, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35004, España</div>`)[0];
+                popup_0beab01bde17b708125b0f7a32ea3cd2.setContent(html_f3f43844c128f0a1091cdfe39dcee869);
+            
+        
+
+        marker_d2a01771fb17b4415596da611548bf1c.bindPopup(popup_0beab01bde17b708125b0f7a32ea3cd2)
+        ;
+
+        
+    
+    
+            var marker_4335cdad86c1ef5d7c024c6c4c9bde3f = L.marker(
+                [28.09538166666667, -15.404135],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_9b78d3f0862663169925f269ce0a2b11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4335cdad86c1ef5d7c024c6c4c9bde3f.setIcon(icon_9b78d3f0862663169925f269ce0a2b11);
+        
+    
+        var popup_f95564b9ce8aadf226e757ba5b5774e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47ce3b421c5639067263ee6b4e9b9e91 = $(`<div id="html_47ce3b421c5639067263ee6b4e9b9e91" style="width: 100.0%; height: 100.0%;">Vegueta, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35001, España</div>`)[0];
+                popup_f95564b9ce8aadf226e757ba5b5774e3.setContent(html_47ce3b421c5639067263ee6b4e9b9e91);
+            
+        
+
+        marker_4335cdad86c1ef5d7c024c6c4c9bde3f.bindPopup(popup_f95564b9ce8aadf226e757ba5b5774e3)
+        ;
+
+        
+    
+    
+            var marker_f48b082946e1160ff04dca9398b303f8 = L.marker(
+                [28.090015, -15.397098333333334],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_237d4724e8269b8d8123e3a1022a835e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f48b082946e1160ff04dca9398b303f8.setIcon(icon_237d4724e8269b8d8123e3a1022a835e);
+        
+    
+        var popup_a59984ece5d0d367a560af8ee79bda93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ddc79823963acdc2130664cfde64f90 = $(`<div id="html_8ddc79823963acdc2130664cfde64f90" style="width: 100.0%; height: 100.0%;">Vegueta, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35001, España</div>`)[0];
+                popup_a59984ece5d0d367a560af8ee79bda93.setContent(html_8ddc79823963acdc2130664cfde64f90);
+            
+        
+
+        marker_f48b082946e1160ff04dca9398b303f8.bindPopup(popup_a59984ece5d0d367a560af8ee79bda93)
+        ;
+
+        
+    
+    
+            var marker_0620d600436dc7290a92f65c807646a7 = L.marker(
+                [28.079113333333332, -15.397175],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_d89b6cd28163ba46c6fbabe5983f15a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0620d600436dc7290a92f65c807646a7.setIcon(icon_d89b6cd28163ba46c6fbabe5983f15a9);
+        
+    
+        var popup_af97d5e0ff736c62fb6345c7cb6a9db7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76443f30bdac1da0488b7549978c7ee3 = $(`<div id="html_76443f30bdac1da0488b7549978c7ee3" style="width: 100.0%; height: 100.0%;">Punta Casa Blanca, San Cristóbal, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35016, España</div>`)[0];
+                popup_af97d5e0ff736c62fb6345c7cb6a9db7.setContent(html_76443f30bdac1da0488b7549978c7ee3);
+            
+        
+
+        marker_0620d600436dc7290a92f65c807646a7.bindPopup(popup_af97d5e0ff736c62fb6345c7cb6a9db7)
+        ;
+
+        
+    
+    
+            var marker_f26d0fe6b5ab8074df3d690f9264ff8b = L.marker(
+                [28.070833333333333, -15.3935],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_e4ee4071b78b7efa92527dea4fa82d8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f26d0fe6b5ab8074df3d690f9264ff8b.setIcon(icon_e4ee4071b78b7efa92527dea4fa82d8c);
+        
+    
+        var popup_7c4d5249ce20537cbfb542d3142e385f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99dcdb2a9c18819ffe21afa5b5968cac = $(`<div id="html_99dcdb2a9c18819ffe21afa5b5968cac" style="width: 100.0%; height: 100.0%;">San Cristóbal, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35016, España</div>`)[0];
+                popup_7c4d5249ce20537cbfb542d3142e385f.setContent(html_99dcdb2a9c18819ffe21afa5b5968cac);
+            
+        
+
+        marker_f26d0fe6b5ab8074df3d690f9264ff8b.bindPopup(popup_7c4d5249ce20537cbfb542d3142e385f)
+        ;
+
+        
+    
+    
+            var marker_24a5b89d9825135cf67b904d3bf1574b = L.marker(
+                [28.082941666666667, -15.38964],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_fafd91d6ac84c99f568a3741467622f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_24a5b89d9825135cf67b904d3bf1574b.setIcon(icon_fafd91d6ac84c99f568a3741467622f4);
+        
+    
+        var popup_f8bd66b0ec448f07529d2a39c8ea108b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99cfe2897c3d1290f1b095f13db4ffbe = $(`<div id="html_99cfe2897c3d1290f1b095f13db4ffbe" style="width: 100.0%; height: 100.0%;">San Cristóbal, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35016, España</div>`)[0];
+                popup_f8bd66b0ec448f07529d2a39c8ea108b.setContent(html_99cfe2897c3d1290f1b095f13db4ffbe);
+            
+        
+
+        marker_24a5b89d9825135cf67b904d3bf1574b.bindPopup(popup_f8bd66b0ec448f07529d2a39c8ea108b)
+        ;
+
+        
+    
+    
+            var marker_ab02741f108e03cf58a9b862f8c60ad5 = L.marker(
+                [28.121773333333334, -15.404866666666667],
+                {}
+            ).addTo(map_94c0440d9bd7d0fafcf56bd395316448);
+        
+    
+            var icon_544ef1a571cb5df166307f9a073d2f5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ab02741f108e03cf58a9b862f8c60ad5.setIcon(icon_544ef1a571cb5df166307f9a073d2f5d);
+        
+    
+        var popup_1418ab625fdacf72b49982d80bfe3953 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c16785d6dc04b984b73adc8708c724cf = $(`<div id="html_c16785d6dc04b984b73adc8708c724cf" style="width: 100.0%; height: 100.0%;">Muelle Dique Reina Sofía, Puerto de la Luz y de Las Palmas, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35071, España</div>`)[0];
+                popup_1418ab625fdacf72b49982d80bfe3953.setContent(html_c16785d6dc04b984b73adc8708c724cf);
+            
+        
+
+        marker_ab02741f108e03cf58a9b862f8c60ad5.bindPopup(popup_1418ab625fdacf72b49982d80bfe3953)
+        ;
+
+        
+    
+</script>
+</html>
